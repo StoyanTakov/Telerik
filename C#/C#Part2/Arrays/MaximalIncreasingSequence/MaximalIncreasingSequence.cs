@@ -1,41 +1,37 @@
 ﻿using System;
 
-
 class MaximalIncreasingSequence
 {
     static void Main()
     {
-        //Write a program that finds the maximal sequence of increasing elements in an array.       
+        //Write a program that finds the maximal increasing sequence in an array. 
+        // Console.Write("Enter the length of the array: ");
         int length = int.Parse(Console.ReadLine());
-        int[] arr = new int[length];
-        for (int i = 0; i < length; i++)
+        int[] array = new int[length];
+        //  Console.WriteLine("Enter {0} elements: ", length);
+        for (int index = 0; index < length; index++)
         {
-            arr[i] = int.Parse(Console.ReadLine());
+            array[index] = int.Parse(Console.ReadLine());
         }
-        int counter = 0;
-        int longestSequence = 0;
-        for (int i = 0; i < length - 1; i++)
+        int maxSequence = 0;
+        int sequence = 1;
+        for (int i = 0; i < array.Length - 1; i++)
         {
-            if (arr[i+1]- arr[i]==1)
+            if (array[i] < array[i + 1])
             {
-                counter++;
-                if (longestSequence < counter)
-                {
-                    longestSequence = counter;
-                }
+                sequence++;
             }
+
             else
+
             {
-                counter = 0;
+                if (maxSequence < sequence)
+               {
+                    maxSequence = sequence;
+                }
+                sequence = 1;
             }
         }
-        if (longestSequence == 0)
-        {
-            Console.WriteLine("0");
-        }
-        else
-        {
-            Console.WriteLine("{0}", longestSequence + 1);
-        }
+        Console.WriteLine(maxSequence);
     }
 }
