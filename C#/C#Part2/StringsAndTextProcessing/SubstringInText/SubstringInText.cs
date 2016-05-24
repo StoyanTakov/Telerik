@@ -12,7 +12,7 @@ class SubstringInText
     {
         counter = 0;
         int nextIndexOfSubText = text.IndexOf(subText);
-        while (text.IndexOf(subText)!=-1)
+        while (nextIndexOfSubText!=-1)
         {
             counter++;
             nextIndexOfSubText = text.IndexOf(subText, nextIndexOfSubText + 1);
@@ -21,10 +21,10 @@ class SubstringInText
     }
     static void Main()
     {
-        string subText = Console.ReadLine();
-        string text = Console.ReadLine();
-        counter = CheckText(text, subText);
-        Console.WriteLine(counter);
+        string subText = Console.ReadLine().ToLower();
+        string text = Console.ReadLine().ToLower();
+       
+        Console.WriteLine(CheckText(text, subText));
     }
 }
 
