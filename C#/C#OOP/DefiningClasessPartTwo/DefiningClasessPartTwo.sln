@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. EuclidianSpace", "EuclidianSpace\1. EuclidianSpace.csproj", "{0B4035E1-F77B-4683-8ABD-FC89884862BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. GenericClass", "GenericClass\2. GenericClass.csproj", "{D2A58818-B7EF-4DBC-B52F-392C7C749F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Matrix", "Matrix\3. Matrix.csproj", "{2FABD4B2-FE95-4925-A4FD-C134975CE47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B4035E1-F77B-4683-8ABD-FC89884862BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4035E1-F77B-4683-8ABD-FC89884862BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4035E1-F77B-4683-8ABD-FC89884862BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4035E1-F77B-4683-8ABD-FC89884862BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A58818-B7EF-4DBC-B52F-392C7C749F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A58818-B7EF-4DBC-B52F-392C7C749F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A58818-B7EF-4DBC-B52F-392C7C749F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A58818-B7EF-4DBC-B52F-392C7C749F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FABD4B2-FE95-4925-A4FD-C134975CE47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FABD4B2-FE95-4925-A4FD-C134975CE47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FABD4B2-FE95-4925-A4FD-C134975CE47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FABD4B2-FE95-4925-A4FD-C134975CE47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
