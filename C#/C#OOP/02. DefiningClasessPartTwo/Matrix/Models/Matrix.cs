@@ -23,7 +23,7 @@ namespace Matrix.Models
             if (m1.matrix.GetLength(0) != m2.matrix.GetLength(0) ||
                 m1.matrix.GetLength(1) != m2.matrix.GetLength(1))
             {
-                throw new ArgumentException("Matrices should have equal dimentions");
+                throw new ArgumentException("Matrices should have equal dimensions");
             }
 
             var result = new Matrix<T>(m1.matrix.GetLength(0), m1.matrix.GetLength(1));
@@ -43,7 +43,7 @@ namespace Matrix.Models
             if (m1.matrix.GetLength(0) != m2.matrix.GetLength(0) ||
                    m1.matrix.GetLength(1) != m2.matrix.GetLength(1))
             {
-                throw new ArgumentException("Matrices should have equal dimentions");
+                throw new ArgumentException("Matrices should have equal dimensions");
             }
 
             var result = new Matrix<T>(m1.matrix.GetLength(0), m1.matrix.GetLength(1));
@@ -70,7 +70,7 @@ namespace Matrix.Models
         {
             if (m1.matrix.GetLength(1) != m2.matrix.GetLength(0))
             {
-                throw new ArgumentException("Matrices should have *** dimentions");
+                throw new ArgumentException("Matrices should have *** dimensions");
             }
 
             var result = new Matrix<T>(m1.matrix.GetLength(0), m2.matrix.GetLength(1));
