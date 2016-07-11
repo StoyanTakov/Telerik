@@ -18,7 +18,7 @@
             this.WorkHoursPerDay = hoursDay;
         }
 
-        #region Properties
+        
         public decimal WeekSalary
         {
             get
@@ -53,7 +53,7 @@
                 this.workHoursPerDay = value;
             }
         }
-        #endregion
+        
 
         public decimal MoneyPerHour()
         {

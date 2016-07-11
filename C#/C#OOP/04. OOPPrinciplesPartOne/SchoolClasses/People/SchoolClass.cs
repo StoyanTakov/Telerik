@@ -27,7 +27,7 @@ namespace SchoolClasses.People
             this.ID = id;
         }
 
-        #region Properties
+        
         public string Comment
         {
             get
@@ -77,7 +77,7 @@ namespace SchoolClasses.People
                 this.students = value;
             }
         }
-        #endregion
+        
 
         public void AddStudent(Student student)
         {

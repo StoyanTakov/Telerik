@@ -69,7 +69,7 @@ namespace Validation.ValidateStrings
             CheckForLettersAndDigits(value);
         }
 
-        #region Private Methods
+        
         private static void CheckWordLength(string word)
         {
             if (word.Length > 30)
@@ -90,6 +90,6 @@ namespace Validation.ValidateStrings
                 }
             }
         }
-        #endregion
+        
     }
 }

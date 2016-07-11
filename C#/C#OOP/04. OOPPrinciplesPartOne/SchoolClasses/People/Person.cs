@@ -14,7 +14,7 @@ namespace SchoolClasses.People
             this.Name = name;
         }
 
-        #region Properties
+        
         public string Comment
         {
             get
@@ -40,6 +40,6 @@ namespace SchoolClasses.People
                 this.name = value;
             }
         }
-        #endregion
+       
     }
 }

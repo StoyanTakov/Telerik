@@ -12,7 +12,7 @@
         private List<Teacher> teachers;
         private string name;
 
-        #region Constructors
+        
         public School()
         {
             this.classes = new List<SchoolClass>();
@@ -24,9 +24,9 @@
         {
             this.Name = name;
         }
-        #endregion
+        
 
-        #region Properties
+        
         public string Name
         {
             get
@@ -63,7 +63,7 @@
                 this.teachers = value;
             }
         }
-        #endregion
+        
 
         public void AddClass(SchoolClass newClass)
         {

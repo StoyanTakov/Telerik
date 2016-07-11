@@ -17,7 +17,7 @@
             this.Sex = sex;
         }
 
-        #region Properties
+        
         public int Age
         {
             get
@@ -63,7 +63,7 @@
                 this.sex = value;
             }
         }
-        #endregion
+        
 
         public virtual void MakeASound()
         {

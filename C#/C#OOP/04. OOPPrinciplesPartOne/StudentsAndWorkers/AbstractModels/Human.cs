@@ -13,7 +13,7 @@
             this.LastName = last;
         }
 
-        #region Properties
+       
         public string FirstName
         {
             get
@@ -60,9 +60,9 @@
                 return this.FirstName + " " + this.LastName;
             }
         }
-        #endregion
+        
 
-        #region ToStringTest
+        
         //public override string ToString()
         //{
         //    var allProperties = this.GetType()
@@ -87,6 +87,6 @@
 
         //    return output.ToString().Trim(new[] { ',', ' ' });
         //}
-        #endregion
+        
     }
 }

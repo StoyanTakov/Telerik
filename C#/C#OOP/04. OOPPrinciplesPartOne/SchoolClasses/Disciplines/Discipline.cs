@@ -7,7 +7,7 @@
 
     public class Discipline : ICommentable
     {
-        #region Constants ( for validation )
+        
         /// <summary>
         /// Min - Max number of Classes
         /// </summary>
@@ -15,7 +15,7 @@
         private const int MinNumberOfLectures = 1;
         private const int MaxNumberOfExercises = 50;
         private const int MinNumberOfExercises = 0;
-        #endregion
+        
 
         private DisciplineType name;
         private string comment;
@@ -31,7 +31,7 @@
             this.NumberOfExcercises = numberExercises;
         }
 
-        #region Properties
+        
         public string Comment
         {
             get
@@ -95,6 +95,6 @@
                 }
             }
         }
-        #endregion
+        
     }
 }
