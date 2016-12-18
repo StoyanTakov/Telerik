@@ -1,0 +1,40 @@
+a {
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 900;
+    color: #0094FF;
+    margin-right: 2px;
+}
+
+#mainTable {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+th {
+    margin-left: 0;
+    border-bottom: 2px solid black;
+}
+
+.laptops-td {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+#laptopTable {
+    border: 2px solid #000000;
+    float: left;
+    display: inline;
+}
+
+#sliderTable {
+    padding: 30px;
+    padding-left: 60px;
+    float: left;
+    display: inline;
+}
+
+#sliderTable td {
+    width: 200px;
+    height: 40px;
+}

@@ -1,0 +1,47 @@
+textarea{
+  resize: none;
+}
+.left-side{
+ font-weight: bold;
+ text-align: right;
+}
+.long-texts{
+  width: 90%;
+}
+td{
+  padding: 3px;
+}
+input{
+  border-style: inset;
+}
+.codes, input[name="postal-code"], input[name="state"] {
+  width: 50px;
+}
+input[type="submit"], input[type="reset"], input[type="radio"] {
+border-style: outset;
+}
+input[type="submit"]{
+  margin-left: 13em;
+}
+table{
+  border-collapse: collapse;
+}
+.inside-table{
+  margin: -4px;
+  padding: 0;
+  border-collapse: collapse;
+border-top: 0;
+border-bottom: 0;
+}
+input[name="tel"]{
+  width: 160px;
+}
+input[name="city"]{
+  width: 220px;
+}
+input[name="month"], input[name="day"]{
+  width: 30px;
+}
+.footer{
+  background-color: lightblue;
+}

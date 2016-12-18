@@ -1,0 +1,33 @@
+#wrapper {
+  width: 600px;
+  background-color: #3B3B3B;
+  border-radius: 10px;
+}
+#wrapper header img,
+#wrapper header label,
+#wrapper header input[type="email"] {
+  float: left;
+  margin-right: 10px;
+}
+#wrapper header input[type="text"] {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#wrapper header input[type="email"] {
+  margin-top: 20px;
+}
+#wrapper header input[type="image"] {
+  margin-top: 5px;
+}
+#wrapper section header,
+#wrapper section article {
+  padding-left: 10px;
+}
+#wrapper section header {
+  font-size: 25px;
+  color: #FFD61A;
+}
+#wrapper section article {
+  font-size: 12px;
+}

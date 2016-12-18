@@ -1,0 +1,61 @@
+#main-ticket {
+    background-color: #595959;
+    width: 400px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+dl {
+    font-family: sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: 200;
+}
+
+dt:not(.title) {
+    float: left;
+    width: 30%;
+}
+
+.title {
+    font-size: 20px;
+    color: #99998B;
+    padding-bottom: 15px;
+    font-style: normal;
+}
+
+dd {
+    margin-left: 150px;
+    padding-bottom: 15px;
+    font-style: normal;
+}
+
+.yellow, dd a {
+    text-decoration: none;
+    color: #E9CF99;
+}
+
+.red {
+    color: red;
+    font-weight: 500;
+}
+
+.orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.gray {
+    color: #99998B;
+}
+
+span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #71B37A;
+    margin-right: 2px;
+}

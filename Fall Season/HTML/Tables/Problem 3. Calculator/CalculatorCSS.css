@@ -1,0 +1,7 @@
+table{
+  border: 1px solid black;
+}
+input[type="button"]{
+  display: inline-block;
+  width: 100%;
+}

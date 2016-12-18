@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+  font-size: 25px;
+}
+ul ul {
+  color: grey;
+  display: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+ul li:hover a {
+  text-decoration: underline;
+}
+ul li:hover ul {
+  display: block;
+}
+ul li:hover ul li {
+  display: none;
+}
+ul li:hover ul:hover li {
+  display: block;
+  padding-left: 20px;
+}
